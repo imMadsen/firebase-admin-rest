@@ -12,6 +12,12 @@
   "files": [
     "dist"
   ],
+  "exports": {
+    ".": {
+      "import": "./lib/index.js",
+      "types": "./lib/index.d.ts"
+    }
+  },
   "keywords": [
     "firebase",
     "firebase rest wrapper",
@@ -32,7 +38,7 @@
   "author": "Moe Ayman <moeaymandev@gmail.com>",
   "devDependencies": {
     "@types/bun": "^1.0.0",
-    "bun-plugin-dts": "^0.2.1",
+    "bun-plugin-dts": "^0.2.3",
     "typescript": "^5.4.5"
   },
   "dependencies": {
