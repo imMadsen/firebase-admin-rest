@@ -9,7 +9,7 @@ import { DJDeleteREST, DocsToJSONRest, JSONtoDocsRest } from "./helper_utils/DJU
 /**
  * Nested class for operations related to documents.
  */
-class FirestoreOperations {
+export class FirestoreOperations {
 
     constructor(public databaseId: string) {
         return this;
@@ -223,7 +223,7 @@ class CollectionOperations<T extends object> implements CollectionOperationsInst
  * Initializes a new instance of the FirebaseAdminRest class.
  * @param {InitFirebaseAdminInput | undefined} initialValue - Optional initial value for the FirebaseAdminConfig.
  */
-export default class RestFirestoreInstance {
+export class RestFirestoreInstance {
 
     public initialValue: InitFirebaseAdminInput | undefined;
 
