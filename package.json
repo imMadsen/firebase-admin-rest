@@ -12,12 +12,6 @@
   "files": [
     "dist"
   ],
-  "exports": {
-    ".": {
-      "import": "./lib/index.js",
-      "types": "./lib/index.d.ts"
-    }
-  },
   "keywords": [
     "firebase",
     "firebase rest wrapper",
